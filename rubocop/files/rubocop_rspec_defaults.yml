@@ -1,0 +1,15 @@
+RSpec/DescribeClass:
+  Exclude:
+    - 'spec/integration/**/*'
+
+RSpec/EmptyExampleGroup:
+  Exclude:
+    - 'spec/integration/**/*'
+
+RSpec/LetSetup:
+  Exclude:
+    - 'spec/integration/**/*'
+
+RSpec/RepeatedExample:
+  Exclude:
+    - 'spec/policies/*'

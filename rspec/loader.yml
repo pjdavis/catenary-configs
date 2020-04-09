@@ -1,0 +1,5 @@
+---
+  name: rspec
+  provides: rspec
+  file: rspec/rspec_config.rb
+  class: RSpecConfig

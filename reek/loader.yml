@@ -1,0 +1,6 @@
+---
+  name: reek
+  provides: reek
+  file: reek/reek_config.rb
+  class: ReekConfig
+  requirements: ['taco']

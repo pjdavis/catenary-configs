@@ -1,0 +1,6 @@
+---
+  name: rswag
+  provides: rswag
+  class: RSwagConfig
+  file: rswag/rswag_config.rb
+  requirements: ['rspec']

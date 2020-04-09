@@ -1,0 +1,6 @@
+---
+  name: factory_bot_rails
+  provides: factory_bot_rails
+  file: factory_bot_rails/factory_bot_rails_config.rb
+  class: FactoryBotRailsConfig
+  enhancements: ['rspec']

@@ -1,0 +1,5 @@
+---
+  name: rails_best_practices
+  provides: rails_best_practices
+  file: rails_best_practices/rails_best_practices_config.rb
+  class: RailsBestPracticesConfig

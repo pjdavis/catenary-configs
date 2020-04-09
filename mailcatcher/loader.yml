@@ -1,0 +1,5 @@
+---
+  name: mailcatcher
+  provides: mailcatcher
+  file: mailcatcher/mailcatcher_config.rb
+  class: MailcatcherConfig

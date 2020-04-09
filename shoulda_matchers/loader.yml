@@ -1,0 +1,6 @@
+---
+  name: shoulda_matchers
+  provides: shoulda_matchers
+  file: shoulda_matchers/shoulda_matchers_config.rb
+  class: ShouldaMatchersConfig
+  requirements: ['rspec']

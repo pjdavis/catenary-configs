@@ -1,0 +1,5 @@
+---
+  name: lograge
+  provides: lograge
+  class: LogrageConfig
+  file: lograge/lograge_config.rb

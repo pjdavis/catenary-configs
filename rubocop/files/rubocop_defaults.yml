@@ -1,0 +1,75 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'db/schema.rb'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+  TargetRubyVersion: 2.6
+
+Layout/EmptyLinesAroundBlockBody:
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+
+Layout/LineLength:
+  Max: 120
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+    - 'config/routes.rb'
+
+Lint/RaiseException:
+  Enabled: false
+
+Lint/StructNewOverride:
+  Enabled: false
+
+Metrics/AbcSize:
+  Exclude:
+    - 'db/migrate/*'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+    - 'spec/**/*'
+    - 'config/environments/**/*.rb'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/*'
+
+Style/ClassVars:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Style/MixinUsage:
+  Enabled: false
+
+Style/NumericLiterals:
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+
+Style/StringLiterals:
+  Enabled: true
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+
+NestedGroups:
+  Enabled: false

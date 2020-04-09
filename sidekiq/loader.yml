@@ -1,0 +1,5 @@
+---
+  name: sidekiq
+  provides: sidekiq
+  file: sidekiq/sidekiq_config.rb
+  class: SidekiqConfig

@@ -1,0 +1,6 @@
+---
+  name: rubocop
+  provides: rubocop
+  file: rubocop/rubocop_config.rb
+  class: RubocopConfig
+  enhancements: ['rspec']
